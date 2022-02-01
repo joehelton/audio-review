@@ -1,6 +1,4 @@
 # audio-review
-Brushing up on Mac &amp; iOS audio code
-
 This is a simple iOS application I created to refresh my memory on working with Apple's audio toolbox. It includes the following elements:
  - A custom audio recorder I created several years ago in Objective-C
  - A custom audio waveform view I created several years ago in Objective-C
