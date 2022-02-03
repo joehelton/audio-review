@@ -101,7 +101,6 @@ extension ViewController {
         waveformView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(waveformView)
         NSLayoutConstraint.activate([
-            waveformView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             waveformView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             waveformView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             waveformView.topAnchor.constraint(equalTo: view.topAnchor),
@@ -118,7 +117,6 @@ extension ViewController {
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(scrollView)
         NSLayoutConstraint.activate([
-            scrollView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             scrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             scrollView.topAnchor.constraint(equalTo: view.topAnchor),
